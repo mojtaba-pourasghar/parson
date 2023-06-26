@@ -1,0 +1,33 @@
+<?php
+
+return [
+
+    'name' => 'نام کاربر',
+    'slug' => 'عنوان انگلیسی',
+    'blogcomments_managment' => 'مدیریت نظرات بلاگ',
+    'blogcomments_managment' => 'مدیریت نظرات بلاگ',
+    'id' => 'شماره',
+    'title' => 'عنوان',
+    'state' => 'وضعیت',
+    'list' => 'لیست نظرات بلاگ',
+    'search_with_user_name' => 'جستجو بر اساس نام نظر دهنده',
+    'edit' => 'ویرایش',
+    'seo_title' => 'عنوان سئو',
+    'seo_description' => 'توضیحات سئو',
+    'description' => 'توضیحات',
+    'order' => 'ترتیب',
+    'blogcomment_has_been_saved' => 'نظر بلاگ با موفقیت ذخیره شد',
+    'blogcomment_dont_saved' => 'نظر بلاگ ذخیره نشد',
+    'blogcomment_has_been_deleted' => 'نظر بلاگ با موفقیت حذف شد',
+    'add' => 'افزودن نظر بلاگ',
+    'edit' => 'ویرایش نظر بلاگ',
+    'comment' => 'نظر',
+    'report' => 'دلیل گزارش',
+    'blogcommentreport_has_been_saved' => 'گزارش با موفقیت ثبت شد',
+    'blogcommentreport_dont_saved' => 'گزارش ثبت نشد',
+    'you_have_already_scored_points' => 'شما قبلا امتیاز داده اید',
+    'blogcommentlike_has_been_saved' => 'امتیاز شما با موفقیت ثبت شد',
+    'blogcommentlike_dont_saved' => 'امتیاز شما ثبت نشد',
+    'abusive' => 'توهین آمیز',
+    'transpire_story' => 'لو رفتن داستان',
+];

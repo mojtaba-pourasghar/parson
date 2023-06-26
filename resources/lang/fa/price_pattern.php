@@ -1,0 +1,30 @@
+<?php
+
+return [
+
+    'title' => 'عنوان ',
+    'price_patterns_managment' => 'مدیریت الگوی قیمت',
+    'id' => 'شماره',
+    'state' => 'وضعیت',
+    'list' => 'لیست الگوی قیمت',
+    'search_with_title' => 'جستجو بر اساس عنوان',
+    'edit' => 'ویرایش',
+    'price_pattern_has_been_saved' => 'الگوی قیمت با موفقیت ذخیره شد',
+    'price_pattern_not_saved' => 'الگوی قیمت با ذخیره نشد',
+    'price_pattern_has_been_deleted' => 'الگوی قیمت با موفقیت حذف شد',
+    'add' => 'افزودن الگوی قیمت',
+    'edit' => 'ویرایش الگوی قیمت',
+    'unit_measurement' => 'الگوی اندازه',
+    'please_enter_discount_title' => 'لطفا الگوی قیمت را انتخاب نمایید',
+    'meter' => 'متر',
+    'yard' => 'یارد',
+    'add_pattern_row' => 'افزودن ردیف الگو',
+    'pattern' => 'الگو',
+    'patterns' => 'الگو ها',
+    'min' => 'حد پایین',
+    'max' => 'حد بالا',
+    'off' => 'درصد تخفیف',
+    '' => '',
+    '' => '',
+    '' => '',
+];

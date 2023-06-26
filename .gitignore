@@ -1,0 +1,17 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+/documents
+connection.txt
+parson.sql.zip
+parson_host.sql.zip
+vendor.zip
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log

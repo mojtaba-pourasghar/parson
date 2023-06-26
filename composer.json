@@ -1,0 +1,90 @@
+{
+    "name": "laravel/laravel",
+    "type": "project",
+    "description": "The Laravel Framework.",
+    "keywords": [
+        "framework",
+        "laravel"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.2.5|^8.0",
+        "barryvdh/laravel-elfinder": "^0.4.5",
+        "fideloper/proxy": "^4.4",
+        "fruitcake/laravel-cors": "^2.0",
+        "jenssegers/agent": "^2.6",
+        "kalnoy/nestedset": "^5.0",
+        "laracasts/presenter": "^0.2.2",
+        "larasocket/larasocket-driver": "^1.0",
+        "laravel/framework": "^7.29",
+        "laravel/passport": "^9.4",
+        "laravel/socialite": "^4.3",
+        "laravel/tinker": "^2.5",
+        "laravel/ui": "^2.5",
+        "laravelcollective/html": "^6.0",
+        "league/commonmark": "^1.3",
+        "morilog/jalali": "^3.1",
+        "shetabit/payment": "^4.0",
+        "symfony/psr-http-message-bridge": "^2.1",
+        "verot/class.upload.php": "^2.0"
+    },
+    "require-dev": {
+        "barryvdh/laravel-ide-helper": "^2.8",
+        "facade/ignition": "^2.0",
+        "fakerphp/faker": "^1.9.1",
+        "mockery/mockery": "^1.3.1",
+        "nunomaduro/collision": "^4.3",
+        "phpunit/phpunit": "^8.5.8|^9.3.3"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "dont-discover": []
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/View/ThemeViewFinderClass.php",
+            "app/View/Composers/AddStatusMessage.php",
+            "app/View/Composers/AddWarningMessage.php",
+            "app/View/Composers/AddAdminUser.php",
+            "app/View/Composers/AddSiteUser.php",
+            "app/View/Composers/InjectPages.php",
+            "app/View/Composers/InjectSiteInformation.php",
+            "app/Helpers/helpers.php",
+            "app/Helpers/jdate.php",
+            "app/Helpers/jdatetime.php",
+            "app/Helpers/functions.php"
+        ],
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "post-autoload-dump": [
+            "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
+            "@php artisan package:discover --ansi"
+        ],
+        "post-root-package-install": [
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+        "post-create-project-cmd": [
+            "@php artisan key:generate --ansi"
+        ]
+    }
+}
